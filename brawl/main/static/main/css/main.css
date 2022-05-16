@@ -1,0 +1,46 @@
+body {
+	margin: 0;
+	background: #ffffff;
+	font-family: Comic Sans MS, Comic Sans, cursive;
+}
+
+aside {
+	background: rgb(253, 217, 55);
+	overflow: hidden;
+	border-bottom: 1px solid #000;
+}
+
+aside .logo {
+	font-family: serif;
+	font-size: 40px;
+	margin-left: 4%;
+	font-weight: bold;
+	position:relative;
+	color: black;
+}
+
+
+aside ul {list-style: none; float: right;}
+aside ul li {
+	float: right;
+	color: #1f1f1f;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+}
+
+aside li:hover, aside ul a:hover {
+    background-color: rgb(238, 202, 44);
+	text-decoration: none;
+}
+
+main {
+	width: 70%;
+	margin: auto;
+}
+
+p#dd {color: rgb(114, 114, 114);}
+
+main li {line-height: 2;}
+

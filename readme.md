@@ -1,0 +1,3 @@
+# Amogus
+
+Crach abobus
