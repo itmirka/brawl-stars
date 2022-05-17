@@ -1,12 +1,18 @@
 body {
 	margin: 0;
-	background: #ffffff;
+	padding-top:35px;
+	/* background: #dfdfdf; */
 	font-family: Comic Sans MS, Comic Sans, cursive;
 }
 
 aside {
-	background: rgb(253, 217, 55);
 	overflow: hidden;
+	display: block;
+	position: fixed;
+	top: 0; left: 0;
+	z-index: 1999;
+	background: rgb(253, 217, 55);
+	width: 100%;
 	border-bottom: 1px solid #000;
 }
 
@@ -19,8 +25,11 @@ aside .logo {
 	color: black;
 }
 
-
-aside ul {list-style: none; float: right;}
+aside ul {
+	list-style: none; 
+	float: right;
+	margin: 0;
+}
 aside ul li {
 	float: right;
 	color: #1f1f1f;
@@ -38,9 +47,24 @@ aside li:hover, aside ul a:hover {
 main {
 	width: 70%;
 	margin: auto;
+	background: #fff;
+	padding: 7px 15px 10px 15px;
 }
-
-p#dd {color: rgb(114, 114, 114);}
 
 main li {line-height: 2;}
 
+main div.welcome {margin-top: 5vh; margin-bottom: 5vh;}
+
+main div.rules {margin-top: 5vh; margin-bottom: 5vh;}
+
+main div.rules h2 {margin-bottom: 0;}
+main div.rules p {margin-top: 0; margin-bottom: 8px;}
+main div.rules ul {margin-top: 0;}
+
+main div.ranks {margin-top: 5vh; margin-bottom: 5vh;}
+
+main ul.end-contact {
+	float: right;
+	list-style: none;
+	margin: 0;
+}
