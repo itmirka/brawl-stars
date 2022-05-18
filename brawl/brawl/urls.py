@@ -9,5 +9,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('main.urls')),
     path('members/', include('members.urls')),
-    path('aboba/', include('wars.urls'))
+    path('club-wars/', include('wars.urls'))
 ] + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
