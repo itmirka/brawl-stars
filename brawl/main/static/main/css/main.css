@@ -63,8 +63,31 @@ main div.rules ul {margin-top: 0;}
 
 main div.ranks {margin-top: 5vh; margin-bottom: 5vh;}
 
+.end-contact {
+	clear: both;
+    position: relative;
+    height: 40px;
+    /* margin-top: -40px; */
+}
+
 main ul.end-contact {
 	float: right;
 	list-style: none;
 	margin: 0;
+}
+main ul.end-contact li {
+	float: right;
+	text-decoration: none;
+	color: rgb(24, 24, 24);
+	text-align: center;
+	padding: 14px 16px;
+	font-weight: bold;
+}
+
+p#supersell-rule, main #supersell-rule a {color: rgb(148, 148, 148); text-decoration: none;}
+main #supersell-rule a:hover {color: rgb(57, 78, 173); text-decoration: underline;}
+
+main ul.end-contact a:hover, main ul.end-contact li:hover {
+	color: #5c5a5a;
+	text-decoration: underline;
 }
